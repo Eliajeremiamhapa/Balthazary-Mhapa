@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.logo-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: brown;
+    padding-left: 2%;
+    line-height: 50px;
+    margin-bottom: 10px;
+    
+}
+.nav-bar{
+    width: 100%;
+    min-width: 30px;
+    background-color: brown;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.banning{
+    width: 100%;
+    min-height: 100px;
+    background-color: brown;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+
+.main-div{
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 10px;
+
+}
+.side-bar{
+    width: 20%;
+    min-height: 400px;
+    background-color: brown;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    line-height: 400px;
+    float: left;
+
+
+}
+.body-area{
+    width: 75%;
+    min-height: 400px;
+    background-color: brown;
+    text-align: center;
+    line-height: 400px;
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer{
+    width: 100%;
+    min-height: 50px;
+    background-color: brown;
+    text-align: center;
+    line-height: 50px;
+
+
+
+}
+.all{
+    width: 80%;
+    background-color:yellow;
+    margin: auto;
+    
+}
